@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <el-button>123</el-button>
-    <el-icon-edit></el-icon-edit>
-    <router-view></router-view>
-  </div>
+  <router-view></router-view>
 </template>
 
 <script lang="ts" setup>
@@ -17,5 +13,8 @@
 svg {
   width: 1em;
   height: 1em;
+}
+html, body, #app, .el-container, .el-menu {
+  height: 100%;
 }
 </style>

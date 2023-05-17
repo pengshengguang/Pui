@@ -9,6 +9,8 @@ import { toLine } from './utils'
 
 const app = createApp(App)
 
+// 全局注册图标，牺牲一点点性能
+// el-icon-xxx
 for (let i in Icons) {
   // 注册全局组件
   // console.log((Icons as any)[i])
